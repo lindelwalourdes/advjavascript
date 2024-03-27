@@ -102,11 +102,6 @@ localAddTaskBtn.addEventListener('click', () => {
 
 
 
-
-
-
-
-
   sessionAddTaskBtn.addEventListener('click', () => {
     const currentTodoInfo =  JSON.parse(sessionStorage.getItem('codesweetlyStore')) || [];
 
